@@ -1,0 +1,223 @@
+/* Override Bootstrap's default styles for the navigation bar */
+.navbar {
+    padding: 1rem;
+  }
+  
+  /* Style the navigation links */
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 1rem;
+  }
+  
+  /* Change link color when hovering */
+  .navbar-nav .nav-link:hover {
+    color: #caebf2;
+  }
+  
+  /* Optional: Center the brand logo or name */
+  .navbar-brand {
+    margin: 0 auto;
+  }
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    gap: 20px;
+    padding-top: 40px;
+  }
+  
+  .col-md-4 {
+    flex: 0 0 auto; /* Reset flex properties to default for column */
+    margin-bottom: 20px; /* Add some space between the centered cards */
+  }
+  
+  .gallery-image {
+    max-width: 400px;
+    height: auto;
+    border: 4px solidrgb(0, 0, 0)c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .card {
+    width: 500px;
+     /* Adjust the width as needed */
+    /* Add other styling properties as needed */
+  }
+  .card-img-top {
+    width: 100%; /* Ensure the image fills the card width */
+    height: auto;
+  }
+  h1 {
+    color: #000000; /* Replace with your desired color */
+    font-style:oblique;
+  }
+  a{
+    font-family: 'Barlow', sans-serif;
+  }
+  p {
+    color: #747070; /* Replace with your desired color */
+    font-family: 'Barlow', sans-serif;
+  }
+  h2 {
+    color: #747070; /* Replace with your desired color */
+  }
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .project-card img {
+    max-width: 500px;
+    height: auto;
+    margin-bottom: 10px;
+    outline: 4px solid #919191; /* Add an outline to the image */
+  }
+  
+  .project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    margin-bottom: 20px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aa2224;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 50px;
+    font-weight: bold;
+  }
+  .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .profile-side {
+    flex: 1;
+    background-color:  rgba(127, 129, 129, 0.95);
+    padding: 40px;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+    top: -10px;
+  }
+  
+  .info-side {
+    flex: 1;
+    background-color:  rgba(202, 235, 242, 0.7);
+    padding: 250px;
+    border-radius: 50px 0 0 50px;
+  }
+
+  .info-side h2 {
+    font-size: 2.2rem; /* Increase font size */
+  
+  }
+  
+  .info-side p {
+    font-size: 1.5rem; /* Increase font size */
+   
+  }
+  
+  .profile-picture {
+    width: 200px; /* Make the profile picture larger */
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px; /* Adjust the margin for spacing */
+  }
+  
+  .contact-links {
+    margin-top: 20px;
+  }
+  
+ 
+  .contact-links a {
+    color: #3d3d3c; /* Set link color */
+    font-weight: bold;
+    text-decoration: none; /* Remove underlines */
+  }
+  
+  .contact-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .profile-section {
+    flex: 1;
+    text-align: center;
+    top: -20px;
+  }
+  
+  .profile-circle {
+    display: inline-block;
+    background-color: #aa2224; /* Circular background color */
+    border-radius: 50%;
+    padding: 50px;
+    top: -20px;
+
+  }
+  
+  .profile-picture_a {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    top: -20px;
+  }
+  
+  .text-section {
+    flex: 2;
+    padding: 80px;
+    background-color: rgba(202, 235, 242, 0.7); /* Text section background color */
+    border-radius: 20px; /* Rounded corners for the text section */
+    margin-left: 10px; /* Add space between profile and text sections */
+  }
+  
+  .text-section h2 {
+    margin-top: 0;
+  }
+  
+  .text-section p {
+    margin-bottom: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aa2224;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .large-text {
+    font-size: 23px; /* Adjust the size to your preference */
+  }
+  .diff-color{
+    color:#535353;
+    font-weight: 700;
+  }
+  .margin-project{
+    margin: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
