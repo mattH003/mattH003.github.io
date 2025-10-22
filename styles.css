@@ -176,8 +176,8 @@
   }
   
   .profile-picture_a {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 70%;
     top: -20px;
   }
@@ -220,4 +220,5 @@
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 20px;
+
   }
