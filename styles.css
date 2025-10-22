@@ -188,7 +188,7 @@
     background-color: rgba(202, 235, 242, 0.7); /* Text section background color */
     border-radius: 20px; /* Rounded corners for the text section */
     margin-left: 10px; /* Add space between profile and text sections */
-    color: #111; /* <<< Add this line to make the text darker */
+    color: #000; /* <<< Add this line to make the text darker */
   }
   
   .text-section h2 {
@@ -223,4 +223,5 @@
     font-size: 20px;
 
   }
+
 
