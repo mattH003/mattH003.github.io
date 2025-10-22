@@ -211,6 +211,7 @@
   }
   .large-text {
     font-size: 23px; /* Adjust the size to your preference */
+    color:#535353;
   }
   .diff-color{
     color:#535353;
@@ -223,5 +224,6 @@
     font-size: 20px;
 
   }
+
 
 
